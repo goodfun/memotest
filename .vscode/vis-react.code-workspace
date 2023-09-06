@@ -1,0 +1,37 @@
+{
+  "folders": [
+	{
+		"name": "✨ youname",
+		"path": ".."
+	},
+	{
+		"name": "📈@vis/charts",
+		"path": "../packages/charts"
+	},
+	{
+		"name": "💡@vis/common",
+		"path": "../packages/common"
+	},
+	{
+		"name": "🤔@vis/components",
+		"path": "../packages/components"
+	},
+	{
+		"name": "💄@vis/decorator",
+		"path": "../packages/decorator"
+	},
+	{
+		"name": "🎯@vis/test",
+		"path": "../packages/test"
+	},
+	{
+		"name": "🤸‍♀️@vis/utils",
+		"path": "../packages/utils"
+	},
+	{
+		"name": "🌘@vis/template",
+		"path": "../projects/template"
+	}
+],
+  "settings": {}
+}

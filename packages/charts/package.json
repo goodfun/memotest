@@ -1,0 +1,51 @@
+{
+  "name": "@vis/charts",
+  "version": "0.0.0",
+  "description": "@vis/charts",
+  "keywords": [
+    "antd",
+    "admin",
+    "ant-design",
+    "ant-design-pro"
+  ],
+  "homepage": "http://xxx.xxx.xxx.xxx:xxxx/-/web/detail/@vis/components",
+  "repository": {
+    "type": "git",
+    "url": "http://xxx.xxx.xxx.xx/ssa-vis/vis-components/Index/"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "dist",
+    "es"
+  ],
+  "scripts": {
+    "build": "cross-env BUILD_TYPE=es father-build"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "dependencies": {
+    "@ant-design/plots": "^1.0.9",
+    "@babel/runtime": "^7.16.3",
+    "@vis/utils": "workspace:^*"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://xxx.xxx.xxx.xxx:xxxx/"
+  },
+  "authors": [
+    "chenjie <jery1997@foxmail.com> "
+  ]
+}

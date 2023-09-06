@@ -1,0 +1,50 @@
+{
+  "name": "@vis/components",
+  "version": "0.0.0",
+  "description": "@vis/components",
+  "keywords": [
+    "antd",
+    "admin",
+    "ant-design",
+    "ant-design-pro"
+  ],
+  "homepage": "http://xxx.xxx.xxx.xxx:xxxx/-/web/detail/@vis/components",
+  "repository": {
+    "type": "git",
+    "url": "http://xxx.xxx.xxx.xx/ssa-vis/vis-components/Index/"
+  },
+  "scripts": {
+    "build": "cross-env BUILD_TYPE=es father-build"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "dist",
+    "es"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://xxx.xxx.xxx.xxx:xxxx/"
+  },
+  "authors": [
+    "chenjie <jery1997@foxmail.com> "
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.16.3",
+    "@ahooksjs/use-url-state": "3.5.1"
+  }
+}

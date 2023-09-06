@@ -1,0 +1,47 @@
+@import url(./vis.less);
+.header-icon-wrap {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 10px;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .anticon {
+    margin: 0 10px;
+  }
+}
+.vis__fadeIn {
+  animation: fadeIn 1s;
+  height: 100%;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.ant-layout {
+  // tab相关给100%高度撑开
+  height: 100vh;
+  .ant-layout-content {
+    padding-block: 10px !important;
+    padding-inline: 10px !important;
+    > .ant-tabs {
+      height: 100%;
+      .ant-tabs-content,
+      .ant-tabs-tabpane {
+        height: 100%;
+      }
+    }
+  }
+
+  .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
+    padding: 4px 8px;
+  }
+}
+.ant-tabs-top > div.ant-tabs-nav {
+  margin: 0;
+}

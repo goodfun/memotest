@@ -1,0 +1,17 @@
+{
+  "extends": "./src/.umi/tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "build",
+    "public",
+    "packages",
+    "projects",
+    "tests",
+    "scripts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "types": ["unplugin-icons/types/react"]
+  }
+}
